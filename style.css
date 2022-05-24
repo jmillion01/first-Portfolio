@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.j {
+    background: blue;
+    height: 75px;
+    width: 150px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-style: border-box;
+}
+
+header h3 {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    border-style: border-box;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 40px;
+}
+
+li {
+    float: left;
+    background: white;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    color: grey;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.current {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.boxA {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    padding-top: 0px;
+    border-style: border-box;
+    border-bottom: 5px solid blue;
+}
+
+.aboutMe {
+    background-color: white;
+    margin: 30px 100px 30px 100px;
+    border-style: border=box;
+    height: 770px;
+}
+
+.aboutMe h1 {
+    color: blue;
+    margin: 20px;
+    padding: 35px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid grey;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    padding-right: 25px;
+    float: left;
+}
+
+.aboutMe-info {
+    vertical-align: auto;
+    padding: 0px 25px 40px 25px;
+    font-size: 24;
+    margin: 20px;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+.background-two {
+    background: black;
+    height: 500px;
+    width: 100%;
+    border-bottom: 5px solid blue;
+}
+
+.background-three {
+    background-color: white;
+    height: 470px;
+    width: 85%;
+    margin: 30px 100px 30px 100px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.background-three h1 {
+    color: blue;
+    margin: 20px;
+    padding: 35px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid grey;
+}
+
+.name {
+    margin-left: 30px;
+    padding-top: 0px;
+}
+
+.background-three p {
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+
+.email {
+    margin-left: 30px;
+    padding-bottom: 0px;
+}
+
+textarea {
+    margin-left: 30px;
+    padding-bottom: 0px;
+    height: 50px;
+    width: 25%;
+}
+
+.button {
+    background: blue;
+    text-align: center;
+    color: white;
+    margin: 20px 30px 30px 30px;
+    padding: 7px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: grey;
+    color: white;
+}
+
+.portfolio-background {
+    background: black;
+    height: 1300px;
+    width: 100%;
+    border-bottom: 5px solid blue;
+}
+
+.inside-box {
+    background-color: white;
+    height: 1270px;
+    width: 85%;
+    margin: 30px 100px 30px 100px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.inside-box h1 {
+    color: blue;
+    margin: 20px;
+    padding: 35px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid grey;
+}
+
+.inside-box img {
+    height: 300px;
+    width: 250px;
+    margin: 0px 20px 20px 20px;
+    padding: 0px;
+    float: left;
+}
+
+.background-three input {
+    width: 900px;
+}
+
+.background-three textarea {
+    width: 900px;
+}
+
+/* Begin styling pics */
+
+.picone {
+    margin-left: 35px;
+}
+
+.picone img {
+    height: 350px;
+    width: 350px;
+}
+
+.picone h1 {
+    position: absolute;
+    background-color: blue;
+    font-size: 22;
+    color: white;
+    text-align: center;
+    margin: 605px 0px 0px 20px;
+    padding-left: 125px;
+    padding-right: 107px;
+    padding-bottom: 30px;
+}
+
+.pictwo {
+    margin-left: 550px;
+}
+
+.pictwo img {
+    height: 350px;
+    width: 350px;
+}
+
+.pictwo h1 {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 225px 0px 0px 20px;
+    padding-left: 125px;
+    padding-right: 107px;
+    padding-bottom: 30px;
+}
+
+.picthree {
+    margin-left: 35px;
+}
+
+.picthree img {
+    height: 350px;
+    width: 350px;
+}
+
+.picthree h1 {
+    background-color: blue;
+    font-size: 22;
+    color: white;
+    text-align: center;
+    margin: 225px 0px 0px 20px;
+    padding-left: 125px;
+    padding-right: 107px;
+    padding-bottom: 30px;
+    position: absolute;
+}
+
+.picfour {
+    margin-left: 550px;
+}
+
+.picfour img {
+    height: 350px;
+    width: 350px;
+}
+
+.picfour h1 {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 605px 0px 0px 20px;
+    padding-left: 125px;
+    padding-right: 107px;
+    padding-bottom: 30px;
+}
+
+.picfive {
+    margin-left: 35px;
+}
+
+.picfive img {
+    height: 350px;
+    width: 350px;
+}
+
+.picfive h1 {
+    background-color: blue;
+    font-size: 22;
+    color: white;
+    text-align: center;
+    margin: 950px 0px 0px 20px;
+    padding-left: 125px;
+    padding-right: 107px;
+    padding-bottom: 30px;
+    position: absolute;
+}
+
+.picsix {
+    margin-left: 550px;
+}
+
+.picsix img {
+    height: 350px;
+    width: 350px;
+}
+
+.picsix h1 {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 950px 0px 0px 20px;
+    padding-left: 125px;
+    padding-right: 107px;
+    padding-bottom: 30px;
+}
+
+/* End styling pics */
